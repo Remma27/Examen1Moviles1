@@ -11,4 +11,7 @@
     <string name="no">No</string>
     <string name="codigo">Codigo</string>
     <string name="aceptar">Acceptar</string>
+    <string name="registrado">Producte registrat</string>
+    <string name="obligatorio">Tots els camps són obligatoris</string>
+    <string name="mayorACero">Els camps numèrics han de ser majors a zero</string>
 </resources>

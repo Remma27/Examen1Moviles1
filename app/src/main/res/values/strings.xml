@@ -14,5 +14,11 @@
 
     <string name="aceptar">Aceptar</string>
 
+    <string name="registrado">Producto registrado</string>
+    <string name="obligatorio">Todos los campos son obligatorios</string>
+    <string name="mayorACero">Los campos numéricos deben ser mayores a cero</string>
+
+
+
 
 </resources>

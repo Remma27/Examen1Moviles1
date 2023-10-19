@@ -28,7 +28,7 @@
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="@string/titulo"></TextView>
+                android:text="@string/titulo"/>
         </TableRow>
 
         <TableRow

@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var inputCategoria: EditText
     private lateinit var inputMinimo: EditText
     private lateinit var inputMaximo: EditText
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -28,7 +29,7 @@ class MainActivity : AppCompatActivity() {
             // Valida los campos
             if (validarCampos()) {
                 // Muestra un mensaje de registro exitoso
-                Toast.makeText(this, "Producto registrado", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, R.string.registrado, Toast.LENGTH_SHORT).show()
 
                 // Limpia los campos
                 inputCodigo.text.clear()
@@ -50,12 +51,12 @@ class MainActivity : AppCompatActivity() {
 
         // Verifica si los campos numéricos son mayores a cero
         if (codigo.isEmpty() || descripcion.isEmpty() || categoria.isEmpty() || minimo.isEmpty() || maximo.isEmpty()) {
-            Toast.makeText(this, "Todos los campos son obligatorios", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, R.string.obligatorio, Toast.LENGTH_SHORT).show()
             return false
         }
 
         if (minimo.toInt() <= 0 || maximo.toInt() <= 0) {
-            Toast.makeText(this, "Los campos numéricos deben ser mayores a cero", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, R.string.mayorACero, Toast.LENGTH_SHORT).show()
             return false
         }
 

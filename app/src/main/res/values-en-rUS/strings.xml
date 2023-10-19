@@ -11,4 +11,7 @@
     <string name="no">No</string>
     <string name="codigo">Code</string>
     <string name="aceptar">Accept</string>
+    <string name="registrado">Registered Product</string>
+    <string name="obligatorio">All fields are required</string>
+    <string name="mayorACero">Numeric fields must be greater than zero</string>
 </resources>
