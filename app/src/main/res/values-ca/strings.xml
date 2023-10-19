@@ -9,6 +9,6 @@
     <string name="descontinuado">Descontinuat</string>
     <string name="si">Si</string>
     <string name="no">No</string>
-    <string name="acepar">Acceptar</string>
     <string name="codigo">Codigo</string>
+    <string name="aceptar">Acceptar</string>
 </resources>
